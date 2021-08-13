@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+</style>
+<body>
+  <div id="start">
+    <button id="start-button">Start game</button>
+  </div>
+  <div id="names">
+    <label for="first">First player name</label>
+    <input type="text" id="first"> 
+    <label for="second">Second player name</label>
+    <input type="text" id="second"> 
+    <button id="submit">Submit</button>
+  </div>
+  <div id="theGame">
+      <h1>Tic tac toe</h1>
+      <div id="board">
+        <div class="field" data-index="0"></div>
+        <div class="field" data-index="1"></div>
+        <div class="field" data-index="2"></div>
+        <div class="field" data-index="3"></div>
+        <div class="field" data-index="4"></div>
+        <div class="field" data-index="5"></div>
+        <div class="field" data-index="6"></div>
+        <div class="field" data-index="7"></div>
+        <div class="field" data-index="8"></div>
+      </div>
+      
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>

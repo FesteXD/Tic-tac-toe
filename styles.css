@@ -1,0 +1,97 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('https://www.wvdc.me/wp-content/uploads/2016/01/wvdc-43-cerulean-on-white-2015-60x60cm.jpg');
+}
+
+#start {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 300px;
+    
+}
+#start-button {
+    font-size: 48px;
+    border: black solid 0.1px;
+    padding: 15px;
+    background-color: rgb(174 217 253);
+    margin: 30% 0;
+    
+    
+}
+#names {
+    font-size: 36px;
+    margin-top: 20%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+input {
+    width: 230px;
+    height: 25px;
+    font-size: 20px;
+}
+#submit {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+#game {
+    display: unset;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 8%;
+}
+#theGame {
+    text-align: center;
+    display: none;
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+}
+.field {
+    border: 1px solid black;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+#result {
+    position: absolute;
+    display: block;
+    top: 45%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 20px 150px ;   
+    font-size: 64px;
+    background-color: rgb(255 255 255 / 70%);
+    width: 100%;
+    font-weight: bolder;
+}
+#blank-div {
+    position: absolute;
+    top: 45%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 235px;
+}
+#restart-button {
+    height: 80px;
+    width: 160px;
+    font-size: 32px;
+    margin: 30px auto;
+    
+
+}
